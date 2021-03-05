@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <style>
+        </style>
+    <meta charset="UTF-8">
+    <title>Market Research Survey</title>
+</head>
+<body>
+    <h1> Market Research </h1> <br>
+    please take a few moments to complete this satisfaction  survey <br>
+    <h2>what is your age range</h2> <br>
+    <div class="123"">
+    <select id="Field530" name="Field530" class="field select medium" onchange="handleinput(this);" onkeyup="handleinput(this);"
+            tabindex="0" data-wufoo-field="dropdown" style="width: 400px"
+        <option value="14-34">
+            14-28
+        </option>
+        <option value="25-34">
+            25-34
+        </option>
+        <option value="35-54">
+            35-54
+        </option>
+        <option value="50+">
+            50+
+        </option>
+    </select>
+</div>
+<div>
+    <h2>what is your yealy income range ?</h2>
+    <select id="Field503" name="Field530" class="Field select medium" onchange="handleinput(this)" onkeyup="handleinput(this);"
+            tabindex="0" data-wufoo-field="dropdown" style="width: 400px"
+            <option value="0-25,000$">
+                0-25,000$
+            </option>
+    <option value="25.001-50,000$">
+        25,001-50,000$
+    </option>
+    <option value="0-25,000$">
+        50,001-100,000$
+    </option>
+    <option value="100,000$+">
+        100.000$+
+    </option>
+    </select>
+    <br>
+    <h2>
+        Gender indentiny
+    </h2>
+   <form>
+       <input type="radio" id="Field505_3" value="q" name="Field505"> male <br>
+       <input type="radio" id="Field505_3" value="q" name="Field505"> Famale <br>
+       <input type="radio" id="Field505_3" value="q" name="Field505"> Nobinary <br>
+       <input  id="Field505_3" name="Field505" type="radio" class="field radio" value="Other" tabindex="0"
+              onchange="handleInput(this);handleRadioOther(this.name, true);" onmouseup="handleInput(this);">
+
+       <span class="choice__text notranslate;">Other</span> <br>
+   </form>
+    <span>
+    <label class="choice" for="Field505_3" onmouseup="document.getElementById('Field505_other').focus();">
+        <input style="margin-left: 100px;" id="Field505_other" name="Field505_other_Other" type="text" class="field text other" value maxlength="250"
+               onclick="document.getElementById('Field505_3').checked = 'checked';handleRadioOther('Field505', true);"
+               onkeyup="handleInput(this);validateRange(505, 'character');" onchange="handleInput(this);" tabindex="0">
+        <span class="choice__qty">
+              </span>
+</div> <br>
+<form> <span>Which of the following products have your purchased in the last 2 months. Please check all that apply.</span>
+    <br>
+    <input type="checkbox"> Product 1 <br>
+    <input type="checkbox"> Product 2 <br>
+    <input type="checkbox"> Product 3 <br>
+    <br>
+    How often would you use our new product? <br>
+    <input type="checkbox"> Daily <br>
+    <input type="checkbox"> Weekly <br>
+    <input type="checkbox"> Monthly <br>
+    What would you pay for the new product? <br>
+    $ <input style="width:100px; margin-left: 15px;" > .
+    <input style="width: 20px;margin-left: 10px;">
+    <br>
+    <pre style="font-size: 25px;">What features would you like to see in the new product.</pre>
+    <br>
+    What features would you like to see in the new product.<br>
+    <textarea style="width: 1000px;height: 100px;"> </textarea>
+    <br> <p>
+    Please rate your level of agreement with the following statements </p>
+    <table border="1px" style="text-align: center">
+    <tr style="width:250px;height: 100px;">
+            <td> </td>
+            <td>Strongly Disagree</td>
+            <td>Disagree</td>
+            <td>Agree</td>
+            <td>Strongly Agree</td>
+        </tr>
+        <tr style="width:200px;">
+            <td>Our products are priced fairly.</td>
+            <td><input type="radio";>1</td>
+            <td><input  type="radio";>2</td>
+            <td><input  type="radio";>3</td>
+            <td><input  type="radio";>4</td>
+        </tr>
+        <tr style="width:200px;">
+            <td>Our products are high quality</td>
+        <td><input  type="radio";>1</td>
+        <td><input type="radio";>2</td>
+        <td><input  type="radio";>3</td>
+            <td><input  type="radio";>4</td>
+        </tr>
+        <tr style="width:200px;">
+            <td>You would recommend our product to a friend or coworker.</td>
+            <td><input  type="radio";>1</td>
+            <td><input  type="radio";>2</td>
+            <td><input  type="radio";>3</td>
+            <td><input  type="radio";>4</td>
+        </tr>
+    </table>
+    <form>
+        <input type="button" value="submit">
+    </form>
+</form>
+</body>
+</html>
